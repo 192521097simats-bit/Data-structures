@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, i, num;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    for (i = 0; i < n; i++)
+    {
+        printf("Enter number: ");
+        scanf("%d", &num);
+
+        if (num % 2 == 0)
+            printf("%d is Even\n", num);
+        else
+            printf("%d is Odd\n", num);
+    }
+
+    return 0;
+}
+OUTPUT:
+10 is Even
+7 is Odd
+24 is Even
+15 is Odd
+8 is Even
